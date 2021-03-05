@@ -15,6 +15,7 @@ class _HomePage extends State<HomePage> {
   void didChangeDependencies() {
     super.didChangeDependencies();
 
+    // get dog breeds list
     DogListBlocProvider.of(context).getDogList.add("");
   }
 
